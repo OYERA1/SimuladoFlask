@@ -19,7 +19,6 @@ def index():
             votar = f'{nomeForm}, pessoas com idade de {idade} anos são obrigadas a votar.'
 
         return render_template('index.html', nome=nomeForm, idade=idade, votar=votar)
-
     return render_template('index.html')
 
 
