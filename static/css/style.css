@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: rgb(137, 103, 151);
+  background-color: #a08bcb;
 }
 
 .wrapper {
@@ -53,17 +53,17 @@ input[type="number"] {
   font-weight: bold;
   text-transform: capitalize;
   cursor: pointer;
-  transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in;
 }
 
 .button:hover {
-  background-color: rgb(160, 160, 160);
+  background-color: #717171;
 }
 
 .voto {
   margin: 0 auto;
   font-weight: bold;
-  background-color: rgb(197, 93, 93);
+  background-color: #48d597;
   max-width: fit-content;
   padding: 0px 1rem 0 1rem;
   text-align: center;
